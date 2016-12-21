@@ -1,0 +1,187 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323542" >
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="10dp"
+         android:paddingBottom="10dp"
+         android:gravity="center_vertical"
+          android:background="#393a3f"
+          android:id="@+id/rl_titlebar"
+        >
+        <ImageButton 
+            android:id="@+id/ib_route_back"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:background="@drawable/icon_back"
+            android:layout_marginLeft="20dp"
+            
+            />
+        <TextView 
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tv_devide"
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:layout_toRightOf="@+id/ib_route_back"
+            android:layout_centerVertical="true"
+            android:background="#2e2e32"
+            
+            />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@+id/tv_devide"
+         	android:textColor="#fffefe"
+         	android:textSize="18sp"
+        	 android:textStyle="bold"
+         	android:text="重置密码" />
+        
+    </RelativeLayout>
+    
+	<ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/rl_titlebar"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+    
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+		android:layout_centerInParent="true"       
+        android:orientation="vertical" >
+
+       
+
+        <RelativeLayout 
+		    android:layout_width="280dp"
+		    android:layout_height="40dp"
+		    android:gravity="center_vertical"
+		    android:background="@drawable/shape_edittext"
+		    >
+		    <ImageView 
+		        android:id="@+id/iv_email"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+		        android:src="@drawable/icon_email"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginLeft="10dp"
+		        android:layout_centerVertical="true"
+		        />
+		    
+		    <EditText
+            android:id="@+id/et_username"
+            android:layout_toRightOf="@+id/iv_email"
+            android:layout_width="280dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="Email / Phone"
+            android:paddingLeft="6dp"
+            android:textColor="#FFF"
+            android:singleLine="true"
+            android:focusable="false"
+            android:textSize="14sp" >
+			
+            <requestFocus />
+		        
+        </EditText>
+		    
+		</RelativeLayout>
+		
+        
+		
+        <RelativeLayout 
+		    android:layout_width="280dp"
+		    android:layout_height="40dp"
+		    android:layout_marginTop="20dp"
+		    android:gravity="center_vertical"
+		    android:background="@drawable/shape_edittext"
+		    >
+		    <ImageView 
+		        android:id="@+id/iv_pwd"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+		        android:src="@drawable/icon_pwd"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginLeft="10dp"
+		        android:layout_centerVertical="true"
+		        />
+		    
+		    <EditText
+            android:id="@+id/et_password"
+            android:layout_toRightOf="@+id/iv_pwd"
+            android:layout_width="280dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="New Password"
+            android:inputType="textPassword"
+            android:paddingLeft="6dp"
+            android:textColor="#FFF"
+            android:singleLine="true"
+            android:textSize="14sp" >
+			
+            <requestFocus />
+		        
+        </EditText>
+		    
+		</RelativeLayout>
+        
+        
+        
+
+       
+
+        
+       
+        <RelativeLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/selector_button"
+                android:gravity="center"
+                android:text="Reset"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <!-- <TextView
+        android:id="@+id/tv_getyzm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="获取验证码" /> -->
+        
+    </LinearLayout>
+
+    
+
+</RelativeLayout>

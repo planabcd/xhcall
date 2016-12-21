@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/bitmap
+END
+BitmapCacheListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/bitmap/BitmapCacheListener.java
+END
+BitmapCommonUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/bitmap/BitmapCommonUtils.java
+END
+PauseOnScrollListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/bitmap/PauseOnScrollListener.java
+END
+BitmapDisplayConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/bitmap/BitmapDisplayConfig.java
+END
+BitmapGlobalConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/bitmap/BitmapGlobalConfig.java
+END

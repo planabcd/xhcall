@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http
+END
+ResponseInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/ResponseInfo.java
+END
+HttpCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/HttpCache.java
+END
+SyncHttpHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/SyncHttpHandler.java
+END
+RequestParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/RequestParams.java
+END
+HttpHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/HttpHandler.java
+END
+ResponseStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/ResponseStream.java
+END

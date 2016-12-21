@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ebebeb"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ <RelativeLayout 
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="10dp"
+         android:paddingBottom="10dp"
+         android:gravity="center_vertical"
+          android:background="#393a3f"
+        >
+        <ImageButton 
+            android:id="@+id/ib_route_back"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:background="@drawable/icon_back"
+            android:layout_marginLeft="20dp"
+            
+            />
+        <TextView 
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tv_devide"
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:layout_toRightOf="@+id/ib_route_back"
+            android:layout_centerVertical="true"
+            android:background="#2e2e32"
+            
+            />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@+id/tv_devide"
+         	android:textColor="#fffefe"
+         	android:textSize="18sp"
+        	 android:textStyle="bold"
+         	android:text="选择路线" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:layout_marginTop="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ListView 
+        android:id="@+id/lv_route"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        > </ListView>
+        
+        <ProgressBar
+        android:id="@+id/pb_route_query"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@drawable/custom_progress" />
+    </RelativeLayout>
+    
+        
+   
+
+   
+</LinearLayout>

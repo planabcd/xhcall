@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/entity
+END
+FileUploadEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/entity/FileUploadEntity.java
+END
+InputStreamUploadEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/entity/InputStreamUploadEntity.java
+END
+BodyParamsEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/entity/BodyParamsEntity.java
+END
+GZipDecompressingEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/entity/GZipDecompressingEntity.java
+END
+UploadEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/entity/UploadEntity.java
+END
+DecompressingEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/entity/DecompressingEntity.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/util
+END
+LogUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/util/LogUtils.java
+END
+IOUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/util/IOUtils.java
+END
+DoubleKeyValueMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/util/DoubleKeyValueMap.java
+END
+CharsetUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/util/CharsetUtils.java
+END
+PreferencesCookieStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/util/PreferencesCookieStore.java
+END
+MimeTypeUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/util/MimeTypeUtils.java
+END
+OtherUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/util/OtherUtils.java
+END

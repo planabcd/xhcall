@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/annotation
+END
+NoAutoIncrement.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/annotation/NoAutoIncrement.java
+END
+Table.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/annotation/Table.java
+END
+Id.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/annotation/Id.java
+END
+NotNull.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/annotation/NotNull.java
+END
+Transient.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/annotation/Transient.java
+END
+Check.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/annotation/Check.java
+END
+Column.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/annotation/Column.java
+END
+Finder.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/annotation/Finder.java
+END
+Foreign.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/annotation/Foreign.java
+END
+Unique.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/annotation/Unique.java
+END

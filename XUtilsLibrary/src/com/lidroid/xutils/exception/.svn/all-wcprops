@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/exception
+END
+BaseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/exception/BaseException.java
+END
+HttpException.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/exception/HttpException.java
+END
+DbException.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/exception/DbException.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client
+END
+DefaultSSLSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/DefaultSSLSocketFactory.java
+END
+HttpRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/HttpRequest.java
+END
+RetryHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/RetryHandler.java
+END

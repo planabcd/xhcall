@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#393a3f"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <ImageButton
+            android:id="@+id/ib_tools_back"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/icon_back"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_devide"
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/ib_tools_back"
+            android:background="#2e2e32" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_devide"
+            android:text="系统管理"
+            android:textColor="#fffefe"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    
+    
+    
+    <RelativeLayout 
+        android:layout_marginTop="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable="true"
+		android:background="#FFF"
+        >
+        <TextView
+	        android:id="@+id/tv_sysytem_car"
+	        style="@style/item_setting"
+	        android:text="车辆管理" />
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_marginTop="4dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable="true"
+		android:background="#FFF"
+        >
+        	<TextView
+	        
+	        android:id="@+id/tv_system_route"
+	        style="@style/item_setting"
+	        android:text="路线管理" />
+        
+    </RelativeLayout>
+    
+    <!-- <RelativeLayout 
+        android:layout_marginTop="4dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable="true"
+		android:background="#FFF"
+        >
+        	<TextView
+	        
+	        android:id="@+id/tv_system_station"
+	        style="@style/item_setting"
+	        android:text="站点管理" />
+        
+    </RelativeLayout> -->
+    <RelativeLayout 
+        android:layout_marginTop="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable="true"
+		android:background="#FFF"
+        >
+        	<TextView
+		        android:id="@+id/tv_system_order"
+		        style="@style/item_setting"
+		        android:text="订单" />
+        
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_marginTop="4dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable="true"
+		android:background="#FFF"
+        >
+        	<TextView
+		        android:id="@+id/tv_pri"
+		        style="@style/item_setting"
+		        android:text="权限" />
+        
+    </RelativeLayout>
+    
+   
+    
+    
+    
+    
+
+</LinearLayout>

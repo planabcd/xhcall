@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/view/annotation
+END
+ContentView.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/view/annotation/ContentView.java
+END
+PreferenceInject.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/view/annotation/PreferenceInject.java
+END
+ViewInject.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/view/annotation/ViewInject.java
+END
+ResInject.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/view/annotation/ResInject.java
+END

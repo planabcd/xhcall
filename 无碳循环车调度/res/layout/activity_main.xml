@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main2"
+    android:orientation="vertical" >
+
+ <!--    <TextView
+        style="@style/bar_titile"
+        android:text="功能列表" /> -->
+        
+         <RelativeLayout 
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="10dp"
+         android:paddingBottom="10dp"
+         android:gravity="center_vertical"
+          android:background="#393a3f"
+        >
+        <ImageButton 
+            android:id="@+id/ib_route_back"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:background="@drawable/icon_back"
+            android:layout_marginLeft="20dp"
+            
+            />
+        <TextView 
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tv_devide"
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:layout_toRightOf="@+id/ib_route_back"
+            android:layout_centerVertical="true"
+            android:background="#2e2e32"
+            
+            />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@+id/tv_devide"
+         	android:textColor="#fffefe"
+         	android:textSize="18sp"
+        	 android:textStyle="bold"
+         	android:text="主页" />
+        
+    </RelativeLayout>
+        
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="欢迎访问长安大学无碳循环车调度系统!!!,更多酷炫功能,等你来体验~"
+        android:textColor="#e3FFFFFF"
+        android:textSize="16sp" />
+
+    <GridView
+        android:id="@+id/gv_home_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:verticalSpacing="10dp" >
+    </GridView>
+
+</LinearLayout>

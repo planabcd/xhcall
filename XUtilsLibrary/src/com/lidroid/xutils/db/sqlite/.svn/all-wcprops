@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/sqlite
+END
+Selector.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/sqlite/Selector.java
+END
+SqlInfoBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/sqlite/SqlInfoBuilder.java
+END
+ColumnDbType.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/sqlite/ColumnDbType.java
+END
+FinderLazyLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/sqlite/FinderLazyLoader.java
+END
+SqlInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/sqlite/SqlInfo.java
+END
+CursorUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/sqlite/CursorUtils.java
+END
+ForeignLazyLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/sqlite/ForeignLazyLoader.java
+END
+DbModelSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/sqlite/DbModelSelector.java
+END
+WhereBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/sqlite/WhereBuilder.java
+END

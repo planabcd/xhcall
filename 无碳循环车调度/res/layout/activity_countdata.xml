@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#393a3f"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <ImageButton
+            android:id="@+id/ib_tools_back"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/icon_back"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_devide"
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/ib_tools_back"
+            android:background="#2e2e32" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_devide"
+            android:text="统计数据"
+            android:textColor="#fffefe"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+          
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" 
+        android:background="#FFF"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+	<ProgressBar
+        android:id="@+id/pb_route_query"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@drawable/custom_progress" />
+        
+        
+        <EditText
+            android:id="@+id/et_route_search_from"
+            android:textCursorDrawable="@color/et_cursor"
+            android:layout_width="280dp"
+            android:layout_height="24dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:ems="10"
+            android:textColor="#000"
+            android:hint="请输入起始时间"
+            android:focusable="false"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:singleLine="true" >
+        </EditText>
+        
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="280dp"
+            android:layout_height="1dp"
+            android:layout_alignLeft="@+id/et_route_search_from"
+            android:layout_below="@+id/et_route_search_from"
+            android:layout_marginTop="3dp"
+            android:background="#45bf1a" />
+
+        <EditText
+            android:id="@+id/et_route_search_to"
+            android:textCursorDrawable="@color/et_cursor"
+			
+            android:layout_width="280dp"
+            android:layout_height="24dp"
+            android:layout_below="@+id/et_route_search_from"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:ems="10"
+            android:focusable="false"
+            android:clickable="true"
+            android:textSize="14sp"
+            android:hint="请输入结束时间"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="280dp"
+            android:layout_height="1dp"
+            android:layout_alignLeft="@+id/et_route_search_to"
+            android:layout_below="@+id/et_route_search_to"
+            android:layout_marginTop="3dp"
+            android:background="#45bf1a" />
+
+
+    </RelativeLayout>
+    
+    
+    <RelativeLayout 
+        android:layout_marginTop="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable="true"
+		android:background="#FFF"
+        >
+        <TextView
+	        android:id="@+id/tv_countdata_person_num"
+	        style="@style/item_setting"
+	        android:text="乘坐人次" />
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_marginTop="4dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable="true"
+		android:background="#FFF"
+        >
+        	<TextView
+	        
+	        android:id="@+id/tv_countdata_money_total"
+	        style="@style/item_setting"
+	        android:text="营业收入" />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:layout_marginTop="4dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable="true"
+		android:background="#FFF"
+        >
+        	<TextView
+	        
+	        android:id="@+id/tv_countdata_station"
+	        style="@style/item_setting"
+	        android:text="热门站点" />
+        
+    </RelativeLayout>
+    
+    
+
+
+</LinearLayout>

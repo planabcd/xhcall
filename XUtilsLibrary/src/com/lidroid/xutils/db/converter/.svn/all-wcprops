@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/converter
+END
+ColumnConverterFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/converter/ColumnConverterFactory.java
+END
+FloatColumnConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/converter/FloatColumnConverter.java
+END
+LongColumnConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/converter/LongColumnConverter.java
+END
+ShortColumnConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/converter/ShortColumnConverter.java
+END
+SqlDateColumnConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/converter/SqlDateColumnConverter.java
+END
+DateColumnConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/converter/DateColumnConverter.java
+END
+IntegerColumnConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/converter/IntegerColumnConverter.java
+END
+ColumnConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/converter/ColumnConverter.java
+END
+ByteArrayColumnConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/converter/ByteArrayColumnConverter.java
+END
+DoubleColumnConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/converter/DoubleColumnConverter.java
+END
+StringColumnConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/converter/StringColumnConverter.java
+END
+CharColumnConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/converter/CharColumnConverter.java
+END
+BooleanColumnConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/converter/BooleanColumnConverter.java
+END
+ByteColumnConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/db/converter/ByteColumnConverter.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/multipart/content
+END
+FileBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/multipart/content/FileBody.java
+END
+InputStreamBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/multipart/content/InputStreamBody.java
+END
+ContentBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/multipart/content/ContentBody.java
+END
+AbstractContentBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/multipart/content/AbstractContentBody.java
+END
+ContentDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/multipart/content/ContentDescriptor.java
+END
+ByteArrayBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/multipart/content/ByteArrayBody.java
+END
+StringBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/http/client/multipart/content/StringBody.java
+END

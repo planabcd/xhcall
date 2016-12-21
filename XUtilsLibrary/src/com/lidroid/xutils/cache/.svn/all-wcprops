@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/cache
+END
+MD5FileNameGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/cache/MD5FileNameGenerator.java
+END
+FileNameGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/cache/FileNameGenerator.java
+END
+KeyExpiryMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/cache/KeyExpiryMap.java
+END
+LruDiskCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/cache/LruDiskCache.java
+END
+LruMemoryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/zhbj/!svn/ver/14/XUtilsLibrary/src/com/lidroid/xutils/cache/LruMemoryCache.java
+END

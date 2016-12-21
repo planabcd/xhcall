@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#393a3f"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <ImageButton
+            android:id="@+id/ib_tools_back"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/icon_back"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_devide"
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/ib_tools_back"
+            android:background="#2e2e32" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_devide"
+            android:text="高级工具"
+            android:textColor="#fffefe"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    
+    
+    
+    <RelativeLayout 
+        android:layout_marginTop="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable="true"
+		android:background="#FFF"
+        >
+        <TextView
+	        android:id="@+id/tv_share"
+	        style="@style/item_setting"
+	        android:text="分享应用" />
+        <ImageView 
+            android:layout_centerVertical="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_share"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="20dp"
+            />
+        
+    </RelativeLayout>
+   <!--  <RelativeLayout 
+        android:layout_marginTop="4dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable="true"
+		android:background="#FFF"
+        >
+         <TextView
+	        android:id="@+id/tv_tq"
+	        style="@style/item_setting"
+	        android:text="当前天气" />
+        <ImageView 
+            android:layout_centerVertical="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_tq"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="20dp"
+            />
+        
+    </RelativeLayout> -->
+    <RelativeLayout 
+        android:layout_marginTop="4dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable="true"
+		android:background="#FFF"
+        >
+        	<TextView
+	        
+	        android:id="@+id/tv_guishudi"
+	        style="@style/item_setting"
+	        android:text="归属地查询" />
+        <ImageView 
+            android:layout_centerVertical="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_guishudi"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="20dp"
+            />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:layout_marginTop="4dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable="true"
+		android:background="#FFF"
+        >
+        	<TextView
+	        
+	        android:id="@+id/tv_youbian"
+	        style="@style/item_setting"
+	        android:text="天地神算" />
+        <ImageView 
+            android:layout_centerVertical="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_youbian"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="20dp"
+            />
+        
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_marginTop="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable="true"
+		android:background="#FFF"
+        >
+        	<TextView
+		        android:id="@+id/tv_about"
+		        style="@style/item_setting"
+		        android:text="关于" />
+	        <ImageView 
+	            android:layout_centerVertical="true"
+	            android:layout_width="20dp"
+	            android:layout_height="20dp"
+	            android:src="@drawable/icon_about"
+				android:layout_alignParentRight="true"
+				android:layout_marginRight="20dp"
+	            />
+        
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_marginTop="4dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable="true"
+		android:background="#FFF"
+        >
+        	<TextView
+		        android:id="@+id/tv_exit"
+		        style="@style/item_setting"
+		        android:text="退出" />
+	        <ImageView 
+	            android:layout_centerVertical="true"
+	            android:layout_width="20dp"
+	            android:layout_height="20dp"
+	            android:src="@drawable/icon_exit"
+				android:layout_alignParentRight="true"
+				android:layout_marginRight="20dp"
+	            />
+        
+    </RelativeLayout>
+    
+   
+    
+    
+    
+    
+
+</LinearLayout>
