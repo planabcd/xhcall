@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+ <mapper namespace="org.cm.dao.OrderDao">
+     
+    
+     <select id="findByCurrentId" parameterType="int"
+         resultType="org.cm.entity.Car">
+         select * from car where current_id=#{0}
+     </select>
+     <select id="getAllOrders" parameterType="long"
+     resultType="int">
+        select count(*) from cm_order where pay_state='1' and endtime between #{date} and #{date}+1000*60*60*24;
+     </select>
+     
+     <select id="getPersonsPeriod" parameterType="org.cm.entity.Order" resultType="int">
+     	select count(*) from cm_order where startTime &gt; #{startTime} and endtime &lt; #{endTime}
+     </select>
+     
+     <select id="getIncomePeriod" parameterType="org.cm.entity.Order" resultType="org.cm.entity.Order">
+     	select * from cm_order where startTime &gt; #{startTime} and endtime &lt; #{endTime} and pay_state='1'
+     </select>
+     <select id="getBusestOfThree" parameterType="org.cm.entity.Order" resultType="org.cm.entity.CountsOrder">
+     	select v.* from(select count(from_station)counts,cm_order.* from cm_order  where startTime between #{startTime} and #{endTime} 
+     	 group by from_station order by  count(from_station) desc)v limit 0,#{id};
+     </select>
+     <resultMap type="org.cm.entity.CountsOrder" id="orderCountsMap">
+     	<result property="counts" column="counts"/>
+     	
+     </resultMap>
+    <!--    <select id="findAllId" 
+         resultType="org.cm.entity.Route">
+         select distinct circuit_id from route 
+     </select>
+       <select id="findByName" parameterType="string"
+         resultType="org.cm.entity.Route">
+         select * from route where station_name=#{0}
+     </select> -->
+     
+<!--      <update id="updateState"
+         parameterType="string">
+         update user set state=#{1}
+         where name=#{0}         
+     </update>
+     <insert id="save" parameterType="org.cm.entity.User">
+         insert into user (name,pwd
+         ,type,state) values (#{name}
+         ,#{pwd}
+         ,#{type},#{state});
+     </insert> -->
+     
+    <!--  <insert id="save" parameterType="org.tarena.note.entity.User">
+         insert into cn_user (cn_user_id,cn_user_name,cn_user_password
+         ,cn_user_token,cn_user_desc) values (#{cn_user_id},#{cn_user_name}
+         ,#{cn_user_password}
+         ,#{cn_user_token},#{cn_user_desc});
+     </insert>
+     <update id="update_password"
+         parameterType="org.tarena.note.entity.User">
+         update cn_user set cn_user_password=#{modifyPassword}
+         where cn_user_id=#{cn_user_id}         
+     </update>
+     <select id="findById_user" parameterType="string"
+         resultType="org.tarena.note.entity.User">
+         select * from cn_user where 
+         cn_user_id=#{id}
+     </select> -->
+    
+ </mapper>

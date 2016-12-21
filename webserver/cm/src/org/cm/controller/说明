@@ -1,0 +1,54 @@
+1.统计当前车辆:getCarsInfoByRunningTypeController
+ 输入参数:int runningType
+ url:http://localhost:8088/cm/getCarsInfo.do?runningType=1
+ 输出:car
+ 
+2.统计当前时间段坐车人次:getPersonsPeriodController
+输入参数:String startTime,String endTime
+输出:int
+url:http://localhost:8088/cm/getPersonsPeriod.do?startTime=0&endTime=14821433390099
+
+3.统计当前时间段累计收费:GetIncomePeriodController
+输入:String startTime,String endTime
+输出:double
+url:http://localhost:8088/cm/getIncomePeriod.do?startTime=0&endTime=14821433390099
+
+4.统计当前时间段上车人数最多的三个站点:GetBusestOfThreeController 
+输入:String startTime,String endTime
+输出:HashMap<String,Integer>
+url:http://localhost:8088/cm/getBusestOfThree.do?startTime=0&endTime=1482143339919
+
+5.添加站点:AddStationController
+输入:int circuitId, String stationName, String prev,String next
+返回:true/false
+url:http://localhost:8088/cm/addStation.do?circuitId=1&stationName=修远教学&prev=图书馆&next=宏远教学楼B
+
+6.添加路线:AddRouteController
+输入:String route    注:整条路线传过来一个字符串,站点与站点之间用逗号分隔
+返回:true/false
+url:localhost:8088/cm/addRoute.do?route=南门,明远一区,修远二区,长大驾校,北门
+
+7.分配线路给车:DistributeRoteToCarController 
+输入:int circuitId, int carId
+返回:true/false
+url:http://localhost:8088/cm/distributeRoteToCar.do?circuitId=2&carId=1
+
+8.增加车辆:AddCarController
+输入:
+返回:String 生成车的id
+url:http://localhost:8088/cm/addCar.do
+
+9.减少车辆:RemoveCarByIdController
+输入:int carId
+返回:true/false
+url:http://localhost:8088/cm/removeCar.do?carId=5
+
+10.控制发车时间:ChangeDepartureTimeController
+输入:int carId, long time
+输出:true/false
+url:http://localhost:8088/cm/changeDepartureTime.do?carId=2&time=100000
+
+
+
+
+

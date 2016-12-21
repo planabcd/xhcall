@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+ <mapper namespace="org.cm.dao.CarDao">
+     
+     <update id="updateCarById" parameterType="org.cm.entity.Car">
+     	update car 
+     	<set>
+     		<if test="direction!=null">direction=#{direction},</if>
+     		<if test="running_type!=null">running_type=#{running_type},</if>
+     		<if test="current_id!=null">current_id=#{current_id},</if>
+     		<if test="departure_time!=null">departure_time=#{departure_time},</if>
+     		<if test="current_location!=null">current_location=#{current_location}</if>
+     	</set>
+     	where id=#{id}
+     </update>
+     <insert id="addCar" parameterType="org.cm.entity.Car">
+     	insert into car(direction,running_type,current_id,departure_time,current_location)
+     	 values(#{direction},#{running_type},#{current_id},#{departure_time},#{current_location})
+     </insert>
+     <select id="getMaxId" resultType="int">
+     	select max(id) from car
+     </select>
+     <delete id="removeCarById" parameterType="int">
+     	delete from car where id=#{carId}
+     </delete>
+     <select id="findById" parameterType="int" resultType="org.cm.entity.Car">
+     	select * from car where id=#{carId}
+     </select>
+     <select id="findByRunningType" parameterType="int" resultType="org.cm.entity.Car">
+     	select * from car where running_type=#{runningType}
+     </select>
+ </mapper>
